@@ -1,0 +1,594 @@
+[
+  {
+    "command": "AD PowerShell Commands",
+      "usecase": "Intsall AD module first"
+  },
+  {
+    "command": "Add-ADCentralAccessPolicyMember",
+    "usecase": "Adds central access rules to a central access policy in Active Directory."
+  },
+  {
+    "command": "Add-ADComputerServiceAccount",
+    "usecase": "Adds one or more service accounts to an Active Directory computer."
+  },
+  {
+    "command": "Add-ADDomainControllerPasswordReplicationPolicy",
+    "usecase": "Adds users, computers, and groups to the allowed or denied list of a read-only domain controller password replication policy."
+  },
+  {
+    "command": "Add-ADFineGrainedPasswordPolicySubject",
+    "usecase": "Applies a fine-grained password policy to one or more users and groups."
+  },
+  {
+    "command": "Add-ADGroupMember",
+    "usecase": "Adds one or more members to an Active Directory group."
+  },
+  {
+    "command": "Add-ADPrincipalGroupMembership",
+    "usecase": "Adds a member to one or more Active Directory groups."
+  },
+  {
+    "command": "Add-ADResourcePropertyListMember",
+    "usecase": "Adds one or more resource properties to a resource property list in Active Directory."
+  },
+  {
+    "command": "Clear-ADAccountExpiration",
+    "usecase": "Clears the expiration date for an Active Directory account."
+  },
+  {
+    "command": "Clear-ADClaimTransformLink",
+    "usecase": "Removes a claims transformation from being applied to one or more cross-forest trust relationships in Active Directory."
+  },
+  {
+    "command": "Disable-ADAccount",
+    "usecase": "Disables an Active Directory account."
+  },
+  {
+    "command": "Disable-ADOptionalFeature",
+    "usecase": "Disables an Active Directory optional feature."
+  },
+  {
+    "command": "Enable-ADAccount",
+    "usecase": "Enables an Active Directory account."
+  },
+  {
+    "command": "Enable-ADOptionalFeature",
+    "usecase": "Enables an Active Directory optional feature."
+  },
+  {
+    "command": "Get-ADAccountAuthorizationGroup",
+    "usecase": "Gets the accounts token group information."
+  },
+  {
+    "command": "Get-ADAccountResultantPasswordReplicationPolicy",
+    "usecase": "Gets the resultant password replication policy for an Active Directory account."
+  },
+  {
+    "command": "Get-ADAuthenticationPolicy",
+    "usecase": "Gets one or more Active Directory Domain Services authentication policies."
+  },
+  {
+    "command": "Get-ADAuthenticationPolicySilo",
+    "usecase": "Gets one or more Active Directory Domain Services authentication policy silos."
+  },
+  {
+    "command": "Get-ADCentralAccessPolicy",
+    "usecase": "Retrieves central access policies from Active Directory."
+  },
+  {
+    "command": "Get-ADCentralAccessRule",
+    "usecase": "Retrieves central access rules from Active Directory."
+  },
+  {
+    "command": "Get-ADClaimTransformPolicy",
+    "usecase": "Returns one or more Active Directory claim transform objects based on a specified filter."
+  },
+  {
+    "command": "Get-ADClaimType",
+    "usecase": "Returns a claim type from Active Directory."
+  },
+  {
+    "command": "Get-ADComputer",
+    "usecase": "Gets one or more Active Directory computers."
+  },
+  {
+    "command": "Get-ADComputerServiceAccount",
+    "usecase": "Gets the service accounts hosted by a computer."
+  },
+  {
+    "command": "Get-ADDCCloningExcludedApplicationList",
+    "usecase": "Gets a list of installed programs and services present on this domain controller that are not in the default or user defined inclusion list."
+  },
+  {
+    "command": "Get-ADDefaultDomainPasswordPolicy",
+    "usecase": "Gets the default password policy for an Active Directory domain."
+  },
+  {
+    "command": "Get-ADDomain",
+    "usecase": "Gets an Active Directory domain."
+  },
+  {
+    "command": "Get-ADDomainController",
+    "usecase": "Gets one or more Active Directory domain controllers based on discoverable services criteria, search parameters or by providing a domain controller identifier, such as the NetBIOS name."
+  },
+  {
+    "command": "Get-ADDomainControllerPasswordReplicationPolicy",
+    "usecase": "Gets the members of the allowed list or denied list of a read-only domain controller\u0027s password replication policy."
+  },
+  {
+    "command": "Get-ADDomainControllerPasswordReplicationPolicyUsage",
+    "usecase": "Gets the Active Directory accounts that are authenticated by a read-only domain controller or that are in the revealed list of the domain controller."
+  },
+  {
+    "command": "Get-ADFineGrainedPasswordPolicy",
+    "usecase": "Gets one or more Active Directory fine-grained password policies."
+  },
+  {
+    "command": "Get-ADFineGrainedPasswordPolicySubject",
+    "usecase": "Gets the users and groups to which a fine-grained password policy is applied."
+  },
+  {
+    "command": "Get-ADForest",
+    "usecase": "Gets an Active Directory forest."
+  },
+  {
+    "command": "Get-ADGroup",
+    "usecase": "Gets one or more Active Directory groups."
+  },
+  {
+    "command": "Get-ADGroupMember",
+    "usecase": "Gets the members of an Active Directory group."
+  },
+  {
+    "command": "Get-ADObject",
+    "usecase": "Gets one or more Active Directory objects."
+  },
+  {
+    "command": "Get-ADOptionalFeature",
+    "usecase": "Gets one or more Active Directory optional features."
+  },
+  {
+    "command": "Get-ADOrganizationalUnit",
+    "usecase": "Gets one or more Active Directory organizational units."
+  },
+  {
+    "command": "Get-ADPrincipalGroupMembership",
+    "usecase": "Gets the Active Directory groups that have a specified user, computer, group, or service account."
+  },
+  {
+    "command": "Get-ADReplicationAttributeMetadata",
+    "usecase": "Gets the replication metadata for one or more Active Directory replication partners."
+  },
+  {
+    "command": "Get-ADReplicationConnection",
+    "usecase": "Returns a specific Active Directory replication connection or a set of AD replication connection objects based on a specified filter."
+  },
+  {
+    "command": "Get-ADReplicationFailure",
+    "usecase": "Returns a collection of data describing an Active Directory replication failure."
+  },
+  {
+    "command": "Get-ADReplicationPartnerMetadata",
+    "usecase": "Returns the replication metadata for a set of one or more replication partners."
+  },
+  {
+    "command": "Get-ADReplicationQueueOperation",
+    "usecase": "Returns the contents of the replication queue for a specified server."
+  },
+  {
+    "command": "Get-ADReplicationSite",
+    "usecase": "Returns a specific Active Directory replication site or a set of replication site objects based on a specified filter."
+  },
+  {
+    "command": "Get-ADReplicationSiteLink",
+    "usecase": "Returns a specific Active Directory site link or a set of site links based on a specified filter."
+  },
+  {
+    "command": "Get-ADReplicationSiteLinkBridge",
+    "usecase": "Gets a specific Active Directory site link bridge or a set of site link bridge objects based on a specified filter."
+  },
+  {
+    "command": "Get-ADReplicationSubnet",
+    "usecase": "Gets one or more Active Directory subnets."
+  },
+  {
+    "command": "Get-ADReplicationUpToDatenessVectorTable",
+    "usecase": "Displays the highest Update Sequence Number (USN) for the specified domain controller."
+  },
+  {
+    "command": "Get-ADResourceProperty",
+    "usecase": "Gets one or more resource properties."
+  },
+  {
+    "command": "Get-ADResourcePropertyList",
+    "usecase": "Gets resource property lists from Active Directory."
+  },
+  {
+    "command": "Get-ADResourcePropertyValueType",
+    "usecase": "Gets a resource property value type from Active Directory."
+  },
+  {
+    "command": "Get-ADRootDSE",
+    "usecase": "Gets the root of a directory server information tree."
+  },
+  {
+    "command": "Get-ADServiceAccount",
+    "usecase": "Gets one or more Active Directory managed service accounts or group managed service accounts."
+  },
+  {
+    "command": "Get-ADTrust",
+    "usecase": "Gets all trusted domain objects in the directory."
+  },
+  {
+    "command": "Get-ADUser",
+    "usecase": "Gets one or more Active Directory users."
+  },
+  {
+    "command": "Get-ADUserResultantPasswordPolicy",
+    "usecase": "Gets the resultant password policy for a user."
+  },
+  {
+    "command": "Grant-ADAuthenticationPolicySiloAccess",
+    "usecase": "Grants permission to join an authentication policy silo."
+  },
+  {
+    "command": "Install-ADServiceAccount",
+    "usecase": "Installs an Active Directory managed service account on a computer or caches a group managed service account on a computer."
+  },
+  {
+    "command": "Move-ADDirectoryServer",
+    "usecase": "Moves a directory server in Active Directory to a new site."
+  },
+  {
+    "command": "Move-ADDirectoryServerOperationMasterRole",
+    "usecase": "Moves operation master roles to an Active Directory directory server."
+  },
+  {
+    "command": "Move-ADObject",
+    "usecase": "Moves an Active Directory object or a container of objects to a different container or domain."
+  },
+  {
+    "command": "New-ADAuthenticationPolicy",
+    "usecase": "Creates an Active Directory Domain Services authentication policy object."
+  },
+  {
+    "command": "New-ADAuthenticationPolicySilo",
+    "usecase": "Creates an Active Directory Domain Services authentication policy silo object."
+  },
+  {
+    "command": "New-ADCentralAccessPolicy",
+    "usecase": "Creates a new central access policy in Active Directory containing a set of central access rules."
+  },
+  {
+    "command": "New-ADCentralAccessRule",
+    "usecase": "Creates a central access rule in Active Directory."
+  },
+  {
+    "command": "New-ADClaimTransformPolicy",
+    "usecase": "Creates a new claim transformation policy object in Active Directory."
+  },
+  {
+    "command": "New-ADClaimType",
+    "usecase": "Creates a new claim type in Active Directory."
+  },
+  {
+    "command": "New-ADComputer",
+    "usecase": "Creates a new Active Directory computer object."
+  },
+  {
+    "command": "New-ADDCCloneConfigFile",
+    "usecase": "Performs prerequisite checks for cloning a domain controller and generates a clone configuration file if all checks succeed."
+  },
+  {
+    "command": "New-ADFineGrainedPasswordPolicy",
+    "usecase": "Creates a new Active Directory fine-grained password policy."
+  },
+  {
+    "command": "New-ADGroup",
+    "usecase": "Creates an Active Directory group."
+  },
+  {
+    "command": "New-ADObject",
+    "usecase": "Creates an Active Directory object."
+  },
+  {
+    "command": "New-ADOrganizationalUnit",
+    "usecase": "Creates an Active Directory organizational unit."
+  },
+  {
+    "command": "New-ADReplicationSite",
+    "usecase": "Creates an Active Directory replication site in the directory."
+  },
+  {
+    "command": "New-ADReplicationSiteLink",
+    "usecase": "Creates a new Active Directory site link for in managing replication."
+  },
+  {
+    "command": "New-ADReplicationSiteLinkBridge",
+    "usecase": "Creates a site link bridge in Active Directory for replication."
+  },
+  {
+    "command": "New-ADReplicationSubnet",
+    "usecase": "Creates an Active Directory replication subnet object."
+  },
+  {
+    "command": "New-ADResourceProperty",
+    "usecase": "Creates a resource property in Active Directory."
+  },
+  {
+    "command": "New-ADResourcePropertyList",
+    "usecase": "Creates a resource property list in Active Directory."
+  },
+  {
+    "command": "New-ADServiceAccount",
+    "usecase": "Creates a new Active Directory managed service account or group managed service account object."
+  },
+  {
+    "command": "New-ADUser",
+    "usecase": "Creates an Active Directory user."
+  },
+  {
+    "command": "Remove-ADAuthenticationPolicy",
+    "usecase": "Removes an Active Directory Domain Services authentication policy object."
+  },
+  {
+    "command": "Remove-ADAuthenticationPolicySilo",
+    "usecase": "Removes an Active Directory Domain Services authentication policy silo object."
+  },
+  {
+    "command": "Remove-ADCentralAccessPolicy",
+    "usecase": "Removes a central access policy from Active Directory."
+  },
+  {
+    "command": "Remove-ADCentralAccessPolicyMember",
+    "usecase": "Removes central access rules from a central access policy in Active Directory."
+  },
+  {
+    "command": "Remove-ADCentralAccessRule",
+    "usecase": "Removes a central access rule from Active Directory."
+  },
+  {
+    "command": "Remove-ADClaimTransformPolicy",
+    "usecase": "Removes a claim transformation policy object from Active Directory."
+  },
+  {
+    "command": "Remove-ADClaimType",
+    "usecase": "Removes a claim type from Active Directory."
+  },
+  {
+    "command": "Remove-ADComputer",
+    "usecase": "Removes an Active Directory computer."
+  },
+  {
+    "command": "Remove-ADComputerServiceAccount",
+    "usecase": "Removes one or more service accounts from a computer."
+  },
+  {
+    "command": "Remove-ADDomainControllerPasswordReplicationPolicy",
+    "usecase": "Removes users, computers, and groups from the allowed or denied list of a read-only domain controller password replication policy."
+  },
+  {
+    "command": "Remove-ADFineGrainedPasswordPolicy",
+    "usecase": "Removes an Active Directory fine-grained password policy."
+  },
+  {
+    "command": "Remove-ADFineGrainedPasswordPolicySubject",
+    "usecase": "Removes one or more users from a fine-grained password policy."
+  },
+  {
+    "command": "Remove-ADGroup",
+    "usecase": "Removes an Active Directory group."
+  },
+  {
+    "command": "Remove-ADGroupMember",
+    "usecase": "Removes one or more members from an Active Directory group."
+  },
+  {
+    "command": "Remove-ADObject",
+    "usecase": "Removes an Active Directory object."
+  },
+  {
+    "command": "Remove-ADOrganizationalUnit",
+    "usecase": "Removes an Active Directory organizational unit."
+  },
+  {
+    "command": "Remove-ADPrincipalGroupMembership",
+    "usecase": "Removes a member from one or more Active Directory groups."
+  },
+  {
+    "command": "Remove-ADReplicationSite",
+    "usecase": "Deletes the specified replication site object from Active Directory."
+  },
+  {
+    "command": "Remove-ADReplicationSiteLink",
+    "usecase": "Deletes an Active Directory site link used to manage replication."
+  },
+  {
+    "command": "Remove-ADReplicationSiteLinkBridge",
+    "usecase": "Deletes a replication site link bridge from Active Directory."
+  },
+  {
+    "command": "Remove-ADReplicationSubnet",
+    "usecase": "Deletes the specified Active Directory replication subnet object from the directory."
+  },
+  {
+    "command": "Remove-ADResourceProperty",
+    "usecase": "Removes a resource property from Active Directory."
+  },
+  {
+    "command": "Remove-ADResourcePropertyList",
+    "usecase": "Removes one or more resource property lists from Active Directory."
+  },
+  {
+    "command": "Remove-ADResourcePropertyListMember",
+    "usecase": "Removes one or more resource properties from a resource property list in Active Directory."
+  },
+  {
+    "command": "Remove-ADServiceAccount",
+    "usecase": "Removes an Active Directory managed service account or group managed service account object."
+  },
+  {
+    "command": "Remove-ADUser",
+    "usecase": "Removes an Active Directory user."
+  },
+  {
+    "command": "Rename-ADObject",
+    "usecase": "Changes the name of an Active Directory object."
+  },
+  {
+    "command": "Reset-ADServiceAccountPassword",
+    "usecase": "Resets the password for a standalone managed service account."
+  },
+  {
+    "command": "Restore-ADObject",
+    "usecase": "Restores an Active Directory object."
+  },
+  {
+    "command": "Revoke-ADAuthenticationPolicySiloAccess",
+    "usecase": "Revokes membership in an authentication policy silo for the specified account."
+  },
+  {
+    "command": "Search-ADAccount",
+    "usecase": "Gets Active Directory user, computer, or service accounts."
+  },
+  {
+    "command": "Set-ADAccountAuthenticationPolicySilo",
+    "usecase": "Modifies the authentication policy or authentication policy silo of an account."
+  },
+  {
+    "command": "Set-ADAccountControl",
+    "usecase": "Modifies user account control (UAC) values for an Active Directory account."
+  },
+  {
+    "command": "Set-ADAccountExpiration",
+    "usecase": "Sets the expiration date for an Active Directory account."
+  },
+  {
+    "command": "Set-ADAccountPassword",
+    "usecase": "Modifies the password of an Active Directory account."
+  },
+  {
+    "command": "Set-ADAuthenticationPolicy",
+    "usecase": "Modifies an Active Directory Domain Services authentication policy object."
+  },
+  {
+    "command": "Set-ADAuthenticationPolicySilo",
+    "usecase": "Modifies an Active Directory Domain Services authentication policy silo object."
+  },
+  {
+    "command": "Set-ADCentralAccessPolicy",
+    "usecase": "Modifies a central access policy in Active Directory."
+  },
+  {
+    "command": "Set-ADCentralAccessRule",
+    "usecase": "Modifies a central access rule in Active Directory."
+  },
+  {
+    "command": "Set-ADClaimTransformLink",
+    "usecase": "Applies a claims transformation to one or more cross-forest trust relationships in Active Directory."
+  },
+  {
+    "command": "Set-ADClaimTransformPolicy",
+    "usecase": "Sets the properties of a claims transformation policy in Active Directory."
+  },
+  {
+    "command": "Set-ADClaimType",
+    "usecase": "Modify a claim type in Active Directory."
+  },
+  {
+    "command": "Set-ADComputer",
+    "usecase": "Modifies an Active Directory computer object."
+  },
+  {
+    "command": "Set-ADDefaultDomainPasswordPolicy",
+    "usecase": "Modifies the default password policy for an Active Directory domain."
+  },
+  {
+    "command": "Set-ADDomain",
+    "usecase": "Modifies an Active Directory domain."
+  },
+  {
+    "command": "Set-ADDomainMode",
+    "usecase": "Sets the domain mode for an Active Directory domain."
+  },
+  {
+    "command": "Set-ADFineGrainedPasswordPolicy",
+    "usecase": "Modifies an Active Directory fine-grained password policy."
+  },
+  {
+    "command": "Set-ADForest",
+    "usecase": "Modifies an Active Directory forest."
+  },
+  {
+    "command": "Set-ADForestMode",
+    "usecase": "Sets the forest mode for an Active Directory forest."
+  },
+  {
+    "command": "Set-ADGroup",
+    "usecase": "Modifies an Active Directory group."
+  },
+  {
+    "command": "Set-ADObject",
+    "usecase": "Modifies an Active Directory object."
+  },
+  {
+    "command": "Set-ADOrganizationalUnit",
+    "usecase": "Modifies an Active Directory organizational unit."
+  },
+  {
+    "command": "Set-ADReplicationConnection",
+    "usecase": "Sets properties on Active Directory replication connections."
+  },
+  {
+    "command": "Set-ADReplicationSite",
+    "usecase": "Sets the replication properties for an Active Directory site."
+  },
+  {
+    "command": "Set-ADReplicationSiteLink",
+    "usecase": "Sets the properties for an Active Directory site link."
+  },
+  {
+    "command": "Set-ADReplicationSiteLinkBridge",
+    "usecase": "Sets the properties of a replication site link bridge in Active Directory."
+  },
+  {
+    "command": "Set-ADReplicationSubnet",
+    "usecase": "Sets the properties of an Active Directory replication subnet object."
+  },
+  {
+    "command": "Set-ADResourceProperty",
+    "usecase": "Modifies a resource property in Active Directory."
+  },
+  {
+    "command": "Set-ADResourcePropertyList",
+    "usecase": "Modifies a resource property list in Active Directory."
+  },
+  {
+    "command": "Set-ADServiceAccount",
+    "usecase": "Modifies an Active Directory managed service account or group managed service account object."
+  },
+  {
+    "command": "Set-ADUser",
+    "usecase": "Modifies an Active Directory user."
+  },
+  {
+    "command": "Show-ADAuthenticationPolicyExpression",
+    "usecase": "Displays the Edit Access Control Conditions window update or create security descriptor definition language (SDDL) security descriptors."
+  },
+  {
+    "command": "Sync-ADObject",
+    "usecase": "Replicates a single object between any two domain controllers that have partitions in common."
+  },
+  {
+    "command": "Test-ADServiceAccount",
+    "usecase": "Tests a managed service account from a computer."
+  },
+  {
+    "command": "Uninstall-ADServiceAccount",
+    "usecase": "Uninstalls an Active Directory managed service account from a computer or removes a cached group managed service account from a computer."
+  },
+  {
+    "command": "Unlock-ADAccount",
+    "usecase": "Unlocks an Active Directory account."
+  }
+]

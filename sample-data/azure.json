@@ -1,0 +1,62 @@
+[
+    {
+        "task":  "Create a simple VM",
+        "command":  "New-AzVM -Name $myVM \n\n\n\n New-AzVM has a set of simplified parameters, where all that is required is a single name. The value for -Name will be used as the name for all of the resources required for creating a new VM. You can specify more, but this is all that is required."
+    },
+    {
+        "task":  "Create a VM from a custom image",
+        "command":  "New-AzVm -ResourceGroupName $myResourceGroup -Name $myVM ImageName \"myImage\" -Location $location"
+    },
+    {
+        "task":  "Create a VM configuration",
+        "command":  "$vm = New-AzVMConfig -VMName $myVM -VMSize \"Standard_D1_v1\"\n\n\n\nThe VM configuration is used to define or update settings for the VM. The configuration is initialized with the name of the VM and its size."
+    },
+    {
+        "task":  "Add configuration settings",
+        "command":  "$vm = Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $myVM -Credential $cred -ProvisionVMAgent -EnableAutoUpdate\n\n\n\nOperating system settings including credentials are added to the configuration object that you previously created using New-AzVMConfig."
+    },
+    {
+        "task":  "Add a network interface",
+        "command":  "$vm = Add-AzVMNetworkInterface -VM $vm -Id $nic.Id\n\n\n\nA VM must have a network interface to communicate in a virtual network. You can also use Get-AzNetworkInterface to retrieve an existing network interface object."
+    },
+    {
+        "task":  "Specify a platform image",
+        "command":  "$vm = Set-AzVMSourceImage -VM $vm -PublisherName \"publisher_name\" -Offer \"publisher_offer\" -Skus \"product_sku\" -Version \"latest\"\n\n\n\nImage information is added to the configuration object that you previously created using New-AzVMConfig. The object returned from this command is only used when you set the OS disk to use a platform image."
+    },
+    {
+        "task":  "Create a VM",
+        "command":  "New-AzVM -ResourceGroupName $myResourceGroup -Location $location -VM $vm\n\n\n\nAll resources are created in a resource group. Before you run this command, run New-AzVMConfig, Set-AzVMOperatingSystem, Set-AzVMSourceImage, Add-AzVMNetworkInterface, and Set-AzVMOSDisk."
+    },
+    {
+        "task":  "Update a VM",
+        "command":  "Update-AzVM -ResourceGroupName $myResourceGroup -VM $vm\n\n\n\nGet the current VM configuration using Get-AzVM, change configuration settings on the VM object, and then run this command."
+    },
+    {
+        "task":  "List VMs in a subscription",
+        "command":  "Get-AzVM"
+    },
+    {
+        "task":  "List VMs in a resource group",
+        "command":  "Get-AzVM -ResourceGroupName $myResourceGroup\n\n\n\nTo get a list of resource groups in your subscription, use Get-AzResourceGroup."
+    },
+    {
+        "task":  "Get information about a VM",
+        "command":  "Get-AzVM -ResourceGroupName $myResourceGroup -Name $myVM"
+    },
+    {
+        "task":  "Start a VM",
+        "command":  "Start-AzVM -ResourceGroupName $myResourceGroup -Name $myVM"
+    },
+    {
+        "task":  "Stop a VM",
+        "command":  "Stop-AzVM -ResourceGroupName $myResourceGroup -Name $myVM"
+    },
+    {
+        "task":  "Restart a running VM",
+        "command":  "Restart-AzVM -ResourceGroupName $myResourceGroup -Name $myVM"
+    },
+    {
+        "task":  "Delete a VM",
+        "command":  "Remove-AzVM -ResourceGroupName $myResourceGroup -Name $myVM"
+    }
+]

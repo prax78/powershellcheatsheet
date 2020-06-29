@@ -1,0 +1,665 @@
+[
+  
+  
+  {
+    "alias": "%",
+    "command": "ForEach-Object",
+    "usecase": "Performs an operation against each item in a collection of input objects."
+  },
+  {
+    "alias": "?",
+    "command": "Where-Object",
+    "usecase": "Selects objects from a collection based on their property values."
+  },
+  {
+    "alias": "ac",
+    "command": "Add-Content",
+    "usecase": "Appends content, such as words or data, to a file."
+  },
+  {
+    "alias": "asnp",
+    "command": "Add-PSSnapIn",
+    "usecase": "Adds one or more Windows PowerShell snap-ins to the current session."
+  },
+  {
+    "alias": "cat",
+    "command": "Get-Content",
+    "usecase": "Gets the contents of a file."
+  },
+  {
+    "alias": "cd",
+    "command": "Set-Location",
+    "usecase": "Sets the current working location to a specified location."
+  },
+  {
+    "alias": "chdir",
+    "command": "Set-Location",
+    "usecase": "Sets the current working location to a specified location."
+  },
+  {
+    "alias": "clc",
+    "command": "Clear-Content",
+    "usecase": "Deletes the contents of an item, but does not delete the item."
+  },
+  {
+    "alias": "clear",
+    "command": "Clear-Host",
+    "usecase": "Clears the display in the host program."
+  },
+  {
+    "alias": "clhy",
+    "command": "Clear-History",
+    "usecase": "Deletes entries from the command history."
+  },
+  {
+    "alias": "cli",
+    "command": "Clear-Item",
+    "usecase": "Deletes the contents of an item, but does not delete the item."
+  },
+  {
+    "alias": "clp",
+    "command": "Clear-ItemProperty",
+    "usecase": "Deletes the value of a property but does not delete the property."
+  },
+  {
+    "alias": "cls",
+    "command": "Clear-Host",
+    "usecase": "Clears the display in the host program."
+  },
+  {
+    "alias": "clv",
+    "command": "Clear-Variable",
+    "usecase": "Deletes the value of a variable."
+  },
+  {
+    "alias": "cnsn",
+    "command": "Connect-PSSession",
+    "usecase": "Reconnects to disconnected sessions"
+  },
+  {
+    "alias": "compare",
+    "command": "Compare-Object",
+    "usecase": "Compares two sets of objects."
+  },
+  {
+    "alias": "copy",
+    "command": "Copy-Item",
+    "usecase": "Copies an item from one location to another."
+  },
+  {
+    "alias": "cp",
+    "command": "Copy-Item",
+    "usecase": "Copies an item from one location to another."
+  },
+  {
+    "alias": "cpi",
+    "command": "Copy-Item",
+    "usecase": "Copies an item from one location to another."
+  },
+  {
+    "alias": "cpp",
+    "command": "Copy-ItemProperty",
+    "usecase": "Copies a property and value from a specified location to another location."
+  },
+  {
+    "alias": "curl",
+    "command": "Invoke-WebRequest",
+    "usecase": "Gets content from a webpage on the Internet."
+  },
+  {
+    "alias": "cvpa",
+    "command": "Convert-Path",
+    "usecase": "Converts a path from a Windows PowerShell path to a Windows PowerShell provider path."
+  },
+  {
+    "alias": "dbp",
+    "command": "Disable-PSBreakpoint",
+    "usecase": "Disables the breakpoints in the current console."
+  },
+  {
+    "alias": "del",
+    "command": "Remove-Item",
+    "usecase": "Deletes files and folders."
+  },
+  {
+    "alias": "diff",
+    "command": "Compare-Object",
+    "usecase": "Compares two sets of objects."
+  },
+  {
+    "alias": "dir",
+    "command": "Get-ChildItem",
+    "usecase": "Gets the files and folders in a file system drive."
+  },
+  {
+    "alias": "dnsn",
+    "command": "Disconnect-PSSession",
+    "usecase": "Disconnects from a session."
+  },
+  {
+    "alias": "ebp",
+    "command": "Enable-PSBreakpoint",
+    "usecase": "Enables the breakpoints in the current console."
+  },
+  {
+    "alias": "echo",
+    "command": "Write-Output",
+    "usecase": "Sends the specified objects to the next command in the pipeline. If the command is the last command in the pipeline, the objects are displayed in the console."
+  },
+  {
+    "alias": "epal",
+    "command": "Export-Alias",
+    "usecase": "Exports information about currently defined aliases to a file."
+  },
+  {
+    "alias": "epcsv",
+    "command": "Export-Csv",
+    "usecase": "Converts objects into a series of comma-separated (CSV) strings and saves the strings in a CSV file."
+  },
+  {
+    "alias": "epsn",
+    "command": "Export-PSSession",
+    "usecase": "Imports commands from another session and saves them in a Windows PowerShell module."
+  },
+  {
+    "alias": "erase",
+    "command": "Remove-Item",
+    "usecase": "Deletes files and folders."
+  },
+  {
+    "alias": "etsn",
+    "command": "Enter-PSSession",
+    "usecase": "Starts an interactive session with a remote computer."
+  },
+  {
+    "alias": "exsn",
+    "command": "Exit-PSSession",
+    "usecase": "Ends an interactive session with a remote computer."
+  },
+  {
+    "alias": "fc",
+    "command": "Format-Custom",
+    "usecase": "Uses a customized view to format the output."
+  },
+  {
+    "alias": "fl",
+    "command": "Format-List",
+    "usecase": "Formats the output as a list of properties in which each property appears on a new line."
+  },
+  {
+    "alias": "foreach",
+    "command": "ForEach-Object",
+    "usecase": "Performs an operation against each item in a collection of input objects."
+  },
+  {
+    "alias": "ft",
+    "command": "Format-Table",
+    "usecase": "Formats the output as a table."
+  },
+  {
+    "alias": "fw",
+    "command": "Format-Wide",
+    "usecase": "Formats objects as a wide table that displays only one property of each object."
+  },
+  {
+    "alias": "gal",
+    "command": "Get-Alias",
+    "usecase": "Gets the aliases for the current session."
+  },
+  {
+    "alias": "gbp",
+    "command": "Get-PSBreakpoint",
+    "usecase": "Gets the breakpoints that are set in the current session."
+  },
+  {
+    "alias": "gc",
+    "command": "Get-Content",
+    "usecase": "Gets the contents of a file."
+  },
+  {
+    "alias": "gci",
+    "command": "Get-ChildItem",
+    "usecase": "Gets the files and folders in a file system drive."
+  },
+  {
+    "alias": "gcm",
+    "command": "Get-Command",
+    "usecase": "Gets all commands."
+  },
+  {
+    "alias": "gcs",
+    "command": "Get-PSCallStack",
+    "usecase": "Displays the current call stack."
+  },
+  {
+    "alias": "gdr",
+    "command": "Get-PSDrive",
+    "usecase": "Gets drives in the current session."
+  },
+  {
+    "alias": "ghy",
+    "command": "Get-History",
+    "usecase": "Gets a list of the commands entered during the current session."
+  },
+  {
+    "alias": "gi",
+    "command": "Get-Item",
+    "usecase": "Gets files and folders."
+  },
+  {
+    "alias": "gjb",
+    "command": "Get-Job",
+    "usecase": "Gets Windows PowerShell background jobs that are running in the current session."
+  },
+  {
+    "alias": "gl",
+    "command": "Get-Location",
+    "usecase": "Gets information about the current working location or a location stack."
+  },
+  {
+    "alias": "gm",
+    "command": "Get-Member",
+    "usecase": "Gets the properties and methods of objects."
+  },
+  {
+    "alias": "gmo",
+    "command": "Get-Module",
+    "usecase": "Gets the modules that have been imported or that can be imported into the current session."
+  },
+  {
+    "alias": "gp",
+    "command": "Get-ItemProperty",
+    "usecase": "Gets the properties of a specified item."
+  },
+  {
+    "alias": "gps",
+    "command": "Get-Process",
+    "usecase": "Gets the processes that are running on the local computer or a remote computer."
+  },
+  {
+    "alias": "group",
+    "command": "Group-Object",
+    "usecase": "Groups objects that contain the same value for specified properties."
+  },
+  {
+    "alias": "gsn",
+    "command": "Get-PSSession",
+    "usecase": "Gets the Windows PowerShell sessions on local and remote computers."
+  },
+  {
+    "alias": "gsnp",
+    "command": "Get-PSSnapIn",
+    "usecase": "Gets the Windows PowerShell snap-ins on the computer."
+  },
+  
+  {
+    "alias": "gu",
+    "command": "Get-Unique",
+    "usecase": "Returns unique items from a sorted list."
+  },
+  {
+    "alias": "gv",
+    "command": "Get-Variable",
+    "usecase": "Gets the variables in the current console."
+  },
+  {
+    "alias": "gwmi",
+    "command": "Get-WmiObject",
+    "usecase": "Gets instances of Windows Management Instrumentation (WMI) classes or information about the available classes."
+  },
+  {
+    "alias": "h",
+    "command": "Get-History",
+    "usecase": "Gets a list of the commands entered during the current session."
+  },
+  {
+    "alias": "history",
+    "command": "Get-History",
+    "usecase": "Gets a list of the commands entered during the current session."
+  },
+  {
+    "alias": "icm",
+    "command": "Invoke-Command",
+    "usecase": "Runs commands on local and remote computers."
+  },
+  {
+    "alias": "iex",
+    "command": "Invoke-Expression",
+    "usecase": "Runs commands or expressions on the local computer."
+  },
+  {
+    "alias": "ihy",
+    "command": "Invoke-History",
+    "usecase": "Runs commands from the session history."
+  },
+  {
+    "alias": "ii",
+    "command": "Invoke-Item",
+    "usecase": "Performs the default action on the specified item."
+  },
+  {
+    "alias": "ipal",
+    "command": "Import-Alias",
+    "usecase": "Imports an alias list from a file."
+  },
+  {
+    "alias": "ipcsv",
+    "command": "Import-Csv",
+    "usecase": "Creates table-like custom objects from the items in a CSV file."
+  },
+  {
+    "alias": "ipmo",
+    "command": "Import-Module",
+    "usecase": "Adds modules to the current session."
+  },
+  {
+    "alias": "ipsn",
+    "command": "Import-PSSes\n sion",
+    "usecase": "Imports commands from another session into the current session."
+  },
+  {
+    "alias": "irm",
+    "command": "Invoke-RestMethod",
+    "usecase": "Sends an HTTP or HTTPS request to a RESTful web service."
+  },
+  {
+    "alias": "ise",
+    "command": "powershell_ise.exe",
+    "usecase": "Explains how to use the PowerShell_ISE.exe command-line tool."
+  },
+  {
+    "alias": "iwmi",
+    "command": "Invoke-WMIMethod",
+    "usecase": "Calls Windows Management Instrumentation (WMI) methods."
+  },
+  {
+    "alias": "iwr",
+    "command": "Invoke-WebRequest",
+    "usecase": "Gets content from a web page on the Internet."
+  },
+  {
+    "alias": "kill",
+    "command": "Stop-Process",
+    "usecase": "Stops one or more running processes."
+  },
+  {
+    "alias": "lp",
+    "command": "Out-Printer",
+    "usecase": "Sends output to a printer."
+  },
+  {
+    "alias": "ls",
+    "command": "Get-ChildItem",
+    "usecase": "Gets the files and folders in a file system drive."
+  },
+  {
+    "alias": "man",
+    "command": "help",
+    "usecase": "Displays information about Windows PowerShell commands and concepts."
+  },
+  {
+    "alias": "md",
+    "command": "mkdir",
+    "usecase": "Creates a new item."
+  },
+  {
+    "alias": "measure",
+    "command": "Measure-Object",
+    "usecase": "Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text."
+  },
+  {
+    "alias": "mi",
+    "command": "Move-Item",
+    "usecase": "Moves an item from one location to another."
+  },
+  {
+    "alias": "mount",
+    "command": "New-PSDrive",
+    "usecase": "Creates temporary and persistent mapped network drives."
+  },
+  {
+    "alias": "move",
+    "command": "Move-Item",
+    "usecase": "Moves an item from one location to another."
+  },
+  {
+    "alias": "mp",
+    "command": "Move-ItemProperty",
+    "usecase": "Moves a property from one location to another."
+  },
+  {
+    "alias": "mv",
+    "command": "Move-Item",
+    "usecase": "Moves an item from one location to another."
+  },
+  {
+    "alias": "nal",
+    "command": "New-Alias",
+    "usecase": "Creates a new alias."
+  },
+  {
+    "alias": "ndr",
+    "command": "New-PSDrive",
+    "usecase": "Creates temporary and persistent mapped network drives."
+  },
+  {
+    "alias": "ni",
+    "command": "New-Item",
+    "usecase": "Creates a new item."
+  },
+  {
+    "alias": "nmo",
+    "command": "New-Module",
+    "usecase": "Creates a new dynamic module that exists only in memory."
+  },
+  {
+    "alias": "npssc",
+    "command": "New-PSSessionConfigurationFile",
+    "usecase": "Creates a file that defines a session configuration."
+  },
+  {
+    "alias": "nsn",
+    "command": "New-PSSession",
+    "usecase": "Creates a persistent connection to a local or remote computer."
+  },
+  {
+    "alias": "nv",
+    "command": "New-Variable",
+    "usecase": "Creates a new variable."
+  },
+  {
+    "alias": "ogv",
+    "command": "Out-GridView",
+    "usecase": "Sends output to an interactive table in a separate window."
+  },
+  {
+    "alias": "oh",
+    "command": "Out-Host",
+    "usecase": "Sends output to the command line."
+  },
+  {
+    "alias": "popd",
+    "command": "Pop-Location",
+    "usecase": "Changes the current location to the location most recently pushed to the stack. You can pop the location from the default stack or from a stack that you create by using the Push-Location cmdlet."
+  },
+  {
+    "alias": "ps",
+    "command": "Get-Process",
+    "usecase": "Gets the processes that are running on the local computer or a remote computer."
+  },
+  {
+    "alias": "pushd",
+    "command": "Push-Location",
+    "usecase": "Adds the current location to the top of a location stack."
+  },
+  {
+    "alias": "pwd",
+    "command": "Get-Location",
+    "usecase": "Gets information about the current working location or a location stack."
+  },
+  {
+    "alias": "r",
+    "command": "Invoke-History",
+    "usecase": "Runs commands from the session history."
+  },
+  {
+    "alias": "rbp",
+    "command": "Remove-PSBreakpoint",
+    "usecase": "Deletes breakpoints from the current console."
+  },
+  {
+    "alias": "rcjb",
+    "command": "Receive-Job",
+    "usecase": "Gets the results of the Windows PowerShell background jobs in the current session."
+  },
+  {
+    "alias": "rcsn",
+    "command": "Receive-PSSession",
+    "usecase": "Gets results of commands in disconnected sessions."
+  },
+  {
+    "alias": "rd",
+    "command": "Remove-Item",
+    "usecase": "Deletes files and folders."
+  },
+  {
+    "alias": "rdr",
+    "command": "Remove-PSDrive",
+    "usecase": "Deletes temporary Windows PowerShell drives and disconnects mapped network drives."
+  },
+  {
+    "alias": "ren",
+    "command": "Rename-Item",
+    "usecase": "Renames an item in a Windows PowerShell provider namespace."
+  },
+  {
+    "alias": "ri",
+    "command": "Remove-Item",
+    "usecase": "Deletes files and folders."
+  },
+  {
+    "alias": "rjb",
+    "command": "Remove-Job",
+    "usecase": "Deletes a Windows PowerShell background job."
+  },
+  {
+    "alias": "rm",
+    "command": "Remove-Item",
+    "usecase": "Deletes files and folders."
+  },
+  {
+    "alias": "rmdir",
+    "command": "Remove-Item",
+    "usecase": "Deletes files and folders."
+  },
+  {
+    "alias": "rmo",
+    "command": "Remove-Module",
+    "usecase": "Removes modules from the current session."
+  },
+  {
+    "alias": "rni",
+    "command": "Rename-Item",
+    "usecase": "Renames an item in a Windows PowerShell provider namespace."
+  },
+  {
+    "alias": "rnp",
+    "command": "Rename-ItemProperty",
+    "usecase": "Renames a property of an item."
+  },
+  {
+    "alias": "rp",
+    "command": "Remove-ItemProperty",
+    "usecase": "Deletes the property and its value from an item."
+  },
+  {
+    "alias": "rsn",
+    "command": "Remove-PSSession",
+    "usecase": "Closes one or more Windows PowerShell sessions (PSSessions)."
+  },
+  {
+    "alias": "rsnp",
+    "command": "Remove-PSSnapin",
+    "usecase": "Removes Windows PowerShell snap-ins from the current session."
+  },
+  {
+    "alias": "rujb",
+    "command": "Resume-Job",
+    "usecase": "Restarts a suspended job"
+  },
+  {
+    "alias": "rv",
+    "command": "Remove-Variable",
+    "usecase": "Deletes a variable and its value."
+  },
+  {
+    "alias": "rvpa",
+    "command": "Resolve-Path",
+    "usecase": "Resolves the wildcard characters in a path, and displays the path contents."
+  },
+  {
+    "alias": "rwmi",
+    "command": "Remove-WMIObject",
+    "usecase": "Deletes an instance of an existing Windows Management Instrumentation (WMI) class."
+  },
+  {
+    "alias": "sajb",
+    "command": "Start-Job",
+    "usecase": "Starts a Windows PowerShell background job."
+  },
+  {
+    "alias": "sal",
+    "command": "Set-Alias",
+    "usecase": "Creates or changes an alias (alternate name) for a cmdlet or other command element in the current Windows PowerShell session."
+  },
+  {
+    "alias": "saps",
+    "command": "Start-Process",
+    "usecase": "Starts one or more processes on the local computer."
+  },
+  {
+    "alias": "sasv",
+    "command": "Start-Service",
+    "usecase": "Starts one or more stopped services."
+  },
+  {
+    "alias": "sbp",
+    "command": "Set-PSBreakpoint",
+    "usecase": "Sets a breakpoint on a line, command, or variable."
+  },
+  {
+    "alias": "sc",
+    "command": "Set-Content",
+    "usecase": "Replaces the contents of a file with contents that you specify."
+  },
+  {
+    "alias": "select",
+    "command": "Select-Object",
+    "usecase": "Selects objects or object properties."
+  },
+  {
+    "alias": "set",
+    "command": "Set-Variable",
+    "usecase": "Sets the value of a variable. Creates the variable if one with the requested name does not exist."
+  },
+  {
+    "alias": "shcm",
+    "command": "Show-Command",
+    "usecase": "Creates Windows PowerShell commands in a graphical command window."
+  },
+  {
+    "alias": "si",
+    "command": "Set-Item",
+    "usecase": "Changes the value of an item to the valu"
+  },
+  {
+    "alias": "%",
+    "command": "ForEach-Object",
+    "usecase": "Performs an operation against each item in a collection of input objects."
+  },
+  {
+    "alias": "?",
+    "command": "Where-Object",
+    "usecase": "Selects objects from a collection based on their property values."
+  }
+]
